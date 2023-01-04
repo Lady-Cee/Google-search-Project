@@ -47,11 +47,57 @@ html {
   }
 
   .side-images{
-    margin-top: 30px;
-    margin-left: 50px;
-    display: flex;
-    gap: 30px;
+    position: relative;
+    margin-top: 50px;
+  }
 
+  .side-img1{
+    position: absolute;
+    left:150px
+    
+  }
+
+  .side-img2{
+    position: absolute;
+    left:220px
+  }
+
+  .side-img3{
+    position: absolute;
+    left: 280px;
+  }
+  .hide2{
+    display: none;
+  }
+  .side-img1:hover .hide2{
+    display:block;
+    color: white;
+    border: 3px solid white;
+    background-color: rgb(95, 93, 93);
+    font-size: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+      
+  }
+
+  .side-img2:hover .hide2{
+    display:block;
+    color: white;
+    border: 3px solid white;
+    background-color: rgb(95, 93, 93);
+    font-size: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+   
    
     
   }
@@ -60,49 +106,176 @@ html {
     border-radius: 50px;
   }
 
-  .header2{
-    display: flex;
-    margin-left: 180px;
-    margin-top: 40px;
-    gap: 30px;
+.header2{
+  margin-left: 180px;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.all p{
+  position: absolute;
+  left: 20px;
+  top: -1px;
+  font-size: 13px;
+  color: gray;
+  
+}
+
+.newss p{
+  position: absolute;
+  left: 70px;
+  top: 1px;
+  font-size: 12px;
+  color: gray;
+}
+.newss-img{
+  position: absolute;
+  top: 1px;
+  left: 50px;
+}
+
+.imagess{
+  position: absolute;
+  left: 120px;
+
+  
+}
+.imagess a{
+  text-decoration: none;
+  font-size: 12px;
+  position: absolute;
+  top: 1px;
+  color: gray;
+  top: -17px;
+}
+.imagess p{
+  position: absolute;
+  left: 20px;
+  top: -1px;
+}
+.videoss a{
+  text-decoration: none;
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  left: 200px;
+  top: 1px;
+}
+.videoss p{
+  position: absolute;
+  top: 1px;
+  left: 20px;
+}
+
+.mores a{
+  position: absolute;
+  text-decoration: none;
+  font-size: 12px;
+  color: gray;
+  left: 280px;
+  top: 1px;
+}
+.mores p{
+  position: absolute;
+  top: 1px;
+  left: 20px;
+}
+
+ .parent1{
     position: relative;
   }
 
-  .header2 div{
-    display: flex;
-    gap: 3px;
-    font-size: 13px;
+  .icon1{
+    position: absolute;
+    top: 42px;
+    left: 530px;
   }
 
- 
-  .header2 p{
-    margin-bottom: 15px;
+  .hide{
+    display: none;
   }
 
-  .parent1{
-    display: flex;
-    position: relative;
-    padding-left: 5px;
-  }
-
-  .parent1 img{
-    position: relative;
-    top: 8px;
-    right: 160px;
+  .icon1:hover .hide{
+    display:block;
+    color: white;
+    border: 3px solid white;
+    background-color: black;
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 10px;
     
-        
+  }
+  .icon2{
+    position: absolute;
+    top: 40px;
+    left: 570px;
   }
 
-  .vertical{
-    padding-top: 7px;
- }
+  .icon3{
+    position: absolute;
+    top: 42px;
+    left: 600px;
+  }
+
+  .icon3:hover .hide{
+    display:block;
+    color: white;
+    border: 3px solid white;
+    background-color: black;
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .icon4{
+    position: absolute;
+    top: 42px;
+    left: 650px;
+  }
+
+  .hide1{
+    display: none;
+  }
+  .icon4:hover .hide1{
+    display:block;
+    color: white;
+    border: 3px solid white;
+    background-color: black;
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 5px;
+  }
+  .icon5{
+    position: absolute;
+    top: 42px;
+    left: 700px;
+  }
+  .icon5:hover .hide{
+    display:block;
+    color: white;
+    border: 3px solid white;
+    background-color: black;
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 10px;
+  }
 
   .tool{
-    padding-left: 250px;
+    position: absolute;
+    left: 700px;
+    top: 2px;
   }
   .tool a{
     text-decoration: none;
     color: grey;
+    font-size: 14px;
+  }
+
+  .tool a:hover{
+    background-color: whitesmoke;
+    border: 1px solid rgb(243, 235, 235);
+    padding: 10px;
   }
 
   hr{
